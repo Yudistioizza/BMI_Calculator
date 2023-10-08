@@ -1,0 +1,82 @@
+/* Reset some default styles and set a base font-family and background color */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container with a centered layout, background, and shadow */
+.container {
+    text-align: center;
+    margin: 20px auto; /* Margin shorthand for top/bottom and auto for left/right */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the main heading with a vibrant color, larger font size, and a modern font */
+h1 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #FF5733; /* Vibrant orange color */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style paragraphs within the container with a slightly larger font size */
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the form with centered items and spacing */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style labels with a consistent font size and margin */
+label {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Style number input fields with consistent styling and slightly larger font size */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #FF5733; /* Vibrant orange border */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Style the submit button with a vibrant color, larger font size, and hover effect */
+button {
+    margin-top: 20px;
+    padding: 14px 28px;
+    background-color: #FF5733; /* Vibrant orange background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #FF4500; /* Slightly darker orange on hover */
+}
+
+/* Style for the result text with a larger font size */
+#hasil {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #FF5733; /* Vibrant orange color */
+}

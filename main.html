@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <p>Check your BMI result</p>
+        <form>
+            <label>Tinggi Badan (cm)</label>
+            <input type="number" id="tinggi">
+            <label>Berat Badan (kg)</label>
+            <input type="number" id="berat">
+            <button id="btn" type="button" onclick="calculateBMI()">Cek Hasil</button>
+            <!-- Display BMI result here -->
+            <div id="hasil"></div>
+        </form>
+    </div>
+
+    <!-- Include the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
